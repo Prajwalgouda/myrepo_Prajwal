@@ -1,5 +1,5 @@
 pipeline {
-agent { dockerfile true }
+agent { JenkinsDocker true }
 stages {
 stage('Test') {
 steps {
